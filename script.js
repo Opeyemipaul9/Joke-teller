@@ -4,7 +4,7 @@ const audioElement = document.getElementById('audio');
 
 // Passing Joke to VoiceRRS API
 function tellMe(joke){
-    console.log('tell me' , joke);
+   
     VoiceRSS.speech({
         key: '6b888df4684c4e43b7d3ee4c6376f1cc',
         src: joke,
@@ -42,7 +42,7 @@ async function getJokes(){
 
     }
     catch(error){
-        console.log('whoops',error);
+        
     }
 }
 
